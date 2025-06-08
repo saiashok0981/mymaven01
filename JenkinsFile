@@ -6,7 +6,8 @@ tools{
 stages{
 	stage('Checkout'){
 	steps{
-		git branch:'master',url='https://github.com/saiashok0981/mymaven01.git'
+		git url: 'https://github.com/saiashok0981/mymaven01.git', branch: 'master'
+
 		}
 	}
 	stage('Build'){
