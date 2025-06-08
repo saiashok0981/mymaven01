@@ -23,6 +23,7 @@ stages{
 	stage('Run Application'){
 		steps{
 			sh 'java -jar target/MyMavenjenkinsPipeline-1.0-SNAPSHOT.jar'
+
 		}
 	}
 }
