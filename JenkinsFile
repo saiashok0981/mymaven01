@@ -27,7 +27,7 @@ stages{
 	}
 }
 post{
-	SUCCESS{
+	success{
 		echo 'build and deployement successful'
 	}
 	failure{
